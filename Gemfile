@@ -34,8 +34,9 @@ gem "letter_opener_web", "~> 1.3"
 
 gem "sprockets", "~> 3.7"
 
+gem "dotenv-rails"
+
 group :development, :test do
-  gem "dotenv-rails"
   gem "byebug", "~> 10.0", platform: :mri
 
   gem "decidim-dev", git: "https://github.com/OpenSourcePolitics/decidim.git", branch: "0.18-merge"
